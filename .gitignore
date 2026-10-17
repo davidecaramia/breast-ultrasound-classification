@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local data and generated artefacts
+data/
+Dataset_BUSI_with_GT/
+BUSI_split/
+BUSI_split_augmented/
+BUSI_split_oversampled/
+models/
+checkpoints/
+*.keras
+*.h5
+history*.json
+
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
